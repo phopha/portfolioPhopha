@@ -164,10 +164,10 @@
       $_SESSION['pass'] = $_POST['password'];
 
       if($_SESSION['name'] == "Phopha" && $_SESSION['pass'] == "Pupa123"){
-        header("Location: portfolio.php");
+        header("Location: ./portfolio.php");
       }
       else if($_SESSION['name'] == "Jib" && $_SESSION['pass'] == "jKo178"){
-        header("Location: portfolio.php");
+        header("Location: ./portfolio.php");
       }
 
       
