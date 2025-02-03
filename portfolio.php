@@ -50,7 +50,7 @@
             Portfolio
           </a>
 
-          <button type="button" class="btn btn-dark ms-auto" onclick="window.location.href='/myPortfolio'">
+          <button type="button" class="btn btn-dark ms-auto" onclick="window.location.href='/'">
             logout
           </button>
 
