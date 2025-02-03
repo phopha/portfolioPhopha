@@ -1,0 +1,42 @@
+body{
+  background-image: url('./picture/portFo.jpg');
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+
+}
+
+.scopeImage{
+  width: 400px; /* Set the desired width */
+  height: 400px; /* Set the desired height */
+  border-radius: 10px; /* Adjust the radius as needed */
+  overflow: hidden; /* Important: Prevents image overflow */
+}
+
+.img3{
+  /* width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center center; */
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Or contain, depending on your needs */
+
+}
+
+.infoPage{
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+  top: 56px;
+  z-index: 100;
+  /* flex: 1; */
+  
+}
+
+.point1{
+  font-family: "Poppins", serif;
+}

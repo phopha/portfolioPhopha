@@ -1,0 +1,9 @@
+1.  HTML CSS JS. <br>
+2. Bootstrap. <br>
+3. Figma. <br>
+4. C, C++. <br>
+5. PHP. <br>
+6. Aduino. <br>
+7. Node.js. <br>
+8. SQL. <br>
+9. Python. <br>

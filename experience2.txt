@@ -1,0 +1,5 @@
+1. Base Apparel coming soon page. <br>
+2. Intro component with sign-up form. <br>
+3. Huddle landing page with a single introductory section. <br>
+4. Four card feature section. <br>
+ 
