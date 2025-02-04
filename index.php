@@ -1,6 +1,36 @@
 <?php
   session_start();
 ?>
+<?php
+  
+  // if user got click the login button
+  if($_SERVER['REQUEST_METHOD'] == 'POST'){
+
+    // check user type in input user and password form.
+    if(isset($_POST['username']) && isset($_POST['password'])){
+
+      // kept in session for used in another page
+      $_SESSION['name'] = $_POST['username'];
+      $_SESSION['pass'] = $_POST['password'];
+
+      if($_SESSION['name'] == "Phopha" && $_SESSION['pass'] == "Pupa123"){
+        header("Location: portfolio.php");
+        die();
+
+      }
+      else if($_SESSION['name'] == "Jib" && $_SESSION['pass'] == "jKo178"){
+        header("Location: portfolio.php");
+        die();
+
+      }
+
+      
+    }
+  }
+
+  
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -151,33 +181,5 @@
   </body>
 </html>
 
-<?php
-  
-  // if user got click the login button
-  if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
-    // check user type in input user and password form.
-    if(isset($_POST['username']) && isset($_POST['password'])){
-
-      // kept in session for used in another page
-      $_SESSION['name'] = $_POST['username'];
-      $_SESSION['pass'] = $_POST['password'];
-
-      if($_SESSION['name'] == "Phopha" && $_SESSION['pass'] == "Pupa123"){
-        header("Location: /portfolio.php");
-        die();
-
-      }
-      else if($_SESSION['name'] == "Jib" && $_SESSION['pass'] == "jKo178"){
-        header("Location: /portfolio.php");
-        die();
-
-      }
-
-      
-    }
-  }
-
-  
-?>
 
